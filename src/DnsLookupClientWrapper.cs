@@ -37,7 +37,7 @@ namespace EvaluationTask
         }
         public void PrepareReport(List<MXRecordParsed> parsed_records)
         {
-            PrepareReport("report.txt", parsed_records);
+            PrepareReport("./input_output/report.txt", parsed_records);
         }
 
         LookupClient _client;
